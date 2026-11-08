@@ -6,7 +6,8 @@
   "scripts": {
     "dev:web": "npm run dev --workspace @lienhoa/web",
     "build:web": "npm run build --workspace @lienhoa/web",
-    "dev:api": "npm run start:dev --workspace @lienhoa/api"
+    "dev:api": "npm run start:dev --workspace @lienhoa/api",
+    "build:api": "npm run build --workspace @lienhoa/api"
   },
   "engines": { "node": ">=22.0.0" }
 }
