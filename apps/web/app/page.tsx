@@ -24,22 +24,19 @@ export default function Home() {
         <button className="nav-item">Quản trị</button>
         <div className="sidebar-foot">COMMERCIAL FOUNDATION · 0.1.0</div>
       </aside>
-
       <section className="workspace">
         <header className="topbar">
           <div><span className="eyebrow">NỀN TẢNG QUẢN TRỊ TÀI CHÍNH</span><h1>Tổng quan</h1></div>
-          <div className="user-chip"><span className="avatar">LH</span><span>Chưa đăng nhập</span></div>
+          <div className="auth-entry"><a href="/login">Đăng nhập</a><a href="/signup">Tạo tài khoản</a></div>
         </header>
-
         <section className="welcome">
           <div>
             <span className="eyebrow gold">LIÊN HOA GLOBAL EDUCATION</span>
             <h2>Nền tảng kế toán<br />cho doanh nghiệp Việt.</h2>
-            <p>Không gian thương mại đang được khởi tạo. Dữ liệu thật chỉ xuất hiện sau khi cấu hình tổ chức, người dùng và kết nối cơ sở dữ liệu an toàn.</p>
+            <p>Không gian thương mại đang được khởi tạo. Đăng ký tài khoản để tạo hồ sơ doanh nghiệp hoặc hộ kinh doanh. Dữ liệu kế toán chỉ được truy cập theo quyền của từng đơn vị.</p>
           </div>
           <div className="welcome-symbol">LH<span>ACCOUNTING AI</span></div>
         </section>
-
         <div className="section-heading"><div><span className="eyebrow">HỆ THỐNG PHÂN HỆ</span><h2>Các nghiệp vụ chính</h2></div><span className="status">ĐANG PHÁT TRIỂN</span></div>
         <div className="module-grid">
           {modules.map(([title, description], index) => (
